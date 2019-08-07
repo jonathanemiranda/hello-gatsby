@@ -1,12 +1,12 @@
 import React from "react"
 import Header from "../components/header"
-import Container from "../components/container"
+import Layout from "../components/layout"
 import styles from "./about.module.css"
 import User from "../components/user"
 console.log(styles);
 
 export default () => (
-  <Container>
+  <Layout>
     <Header headerText="About Gatsby"/>
     <p>Such wow. Very React.</p>
     <User
@@ -19,5 +19,5 @@ export default () => (
       avatar="https://s3.amazonaws.com/uifaces/faces/twitter/vladarbatov/128.jpg"
       excerpt="I'm Bob Smith, a vertically aligned type of guy. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     />
-  </Container>
+  </Layout>
 )
