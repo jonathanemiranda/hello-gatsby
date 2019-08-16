@@ -1,13 +1,15 @@
 import React from "react"
 import Header from "../components/header"
 import Layout from "../components/layout"
+import Project from "../components/project"
 
 export default () => (
   <Layout>
     <div style={{ color: `purple`}}>
-      <Header headerText="Hello Gatsby"/>
-      <p>What a wonderful world</p>
-      <img src="https://source.unsplash.com/random/400x200" alt="" />
+      <Header headerText="Hello and thanks for visiting"/>
+      <p>My name is Jonathan and I'm a front-end developer based in Richmond, VA.</p>
+      <img src="/img/Jonathan-Miranda-519.jpg" alt="" />
     </div>
+    <Project/>
   </Layout>
 )
