@@ -1,3 +1,8 @@
+:root{
+  --dark-gray: #636363;
+}
+
 html, body {
-    background-color: lavenderblush;
+    background-color: var(--dark-gray);
+    text-shadow: none;
   }
