@@ -19,7 +19,7 @@ export default class Projects extends Component {
 											<h3><a href="http://test-umd-arch.pantheonsite.io/">The University of Maryland's School of Architecture, Planning &amp; Preservation</a></h3>
 											<img src="img/university-of-maryland.png"/>
 											<p className="summary">
-												One of my current projects is building a new website for the The University of Maryland's School of Architecture, Planning &amp; Preservation. This Drupal-based site was already in progress when I inherited it from the previous developers but it had a long way to go. 
+												One of my current projects is building a new website for the The University of Maryland's School of Architecture, Planning &amp; Preservation. This Drupal-based site was already in progress when I inherited it from the previous developers but it had a long way to go. The work thus far has consisted of configuring Drupal's structure to fit the unique information architecture that the client requires. I've also been styling the UI based on designer-provided mockups.
 											</p>
 										</div>
 									</div>
